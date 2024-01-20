@@ -19,7 +19,7 @@ public double getPay() {
 }
 public void setPay(double pay) {
 	this.pay = pay;
-	School.getschoolspending(pay);
+	School.getschoolspending(this.pay);
 
 }
 @Override

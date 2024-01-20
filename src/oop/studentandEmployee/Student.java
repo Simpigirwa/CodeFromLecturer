@@ -27,7 +27,7 @@ public double getFees() {
 }
 public void setFees(double fees) {
 	this.fees = fees;
-	School.getchoolincome(fees);
+	School.getchoolincome(this.fees);
 }
 @Override
 public String toString() {
